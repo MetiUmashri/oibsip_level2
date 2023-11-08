@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: rgb(49, 134, 167)!important;
+}
+
+Result Skip Results Iframe
+EDIT ON
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+
+.btn-primary
+{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid rgb(13, 39, 56) !important;
+    background: none !important;
+}
+
+.btn-primary:hover
+{
+    background: rgb(31, 20, 107) !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+#life
+{
+    padding: 40px 0;
+    color: rgb(77, 176, 223);
+}
+
+.title::before
+{
+    content: '';
+    background: #231879;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translate(46px);
+}
+
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+
+ul li
+{
+    padding: 3px;
+    font-family: 300;
+    color: black;
+}
